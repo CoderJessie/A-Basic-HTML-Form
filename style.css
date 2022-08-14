@@ -1,0 +1,13 @@
+/* ::selection{ 
+  Property: value;
+} */
+body{
+  background-image: url(apple.jpg);
+  background-size: cover;
+}
+h1{
+  color: plum;
+}
+p{
+  color: blueviolet;
+}

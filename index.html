@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>A Basic HTML Form</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<section>
+			<h1>A Basic HTML Form</h1>
+			<p>Please fill the form below</p>
+			<!-- Use Get, not POST -->
+			<form method="get">
+				FirstName: <input type="text" name="firstname" /><br />
+				LastName: <input type="text" name="lastname" /><br />
+				Email: <input type="email" required name="email" /><br />
+				Password:<input type="password" minlength="5" name="password" /><br />
+				Birthday: <input type="date" /><br />
+				Gender:<input type="radio" name="gender" value="male" />Male
+				<input type="radio" name="gender" value="female" />Female
+				<input type="radio" name="gender" value="other" />Others<br />
+				Pet:<br />
+				<input type="checkbox" name="cat" />Cat<br />
+				<input type="checkbox" name="dog" />Dog<br />
+				Cars:<br />
+				<select name="Cars">
+					<option value="Volvo">Volvo</option>
+					<option value="Audi">Audi</option>
+					<option value="Lamborghini">Lamborghini</option></select
+				><br />
+				<input type="submit" value="Register" />
+				<input type="Reset" />
+			</form>
+		</section>
+	</body>
+</html>

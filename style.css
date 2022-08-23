@@ -2,12 +2,15 @@
   Property: value;
 } */
 body{
-  background-image: url(apple.jpg);
+  background-image: url(fuji.jpg);
   background-size: cover;
 }
 h1{
-  color: plum;
+  color: firebrick;
 }
-p{
-  color: blueviolet;
+h2{
+  color: navy;
+}
+form{
+  background-color: none;
 }
